@@ -1,0 +1,17 @@
+[paths]
+db              = "data/decisions.sqlite"
+faiss           = "data/faiss.index"
+llm_model       = "models/mistral-7b-instruct-v0.2.Q4_0.gguf"
+
+[search]
+top_k = 50
+bm25_weight  = 0.2
+sbert_weight = 0.8
+
+[mcp]
+url = "http://127.0.0.1:3333"
+
+[scraping]
+phrase = "içtihat"
+start_year = 2015
+end_year = 2024

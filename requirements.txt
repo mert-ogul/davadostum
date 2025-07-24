@@ -1,0 +1,15 @@
+faiss-cpu==1.7.4
+llama-cpp-python==0.2.78
+huggingface-hub==0.23.0
+requests==2.32.2
+yargi-mcp>=0.1.6
+tqdm==4.66.4
+pydantic==2.7.3
+tomli==2.0.1
+numpy<2
+transformers==4.37.0
+tokenizers==0.15.2
+rank_bm25==0.2.2
+sentence-transformers==2.2.2
+anyio==4.2.0
+fastmcp==0.1.0
